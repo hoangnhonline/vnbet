@@ -54,6 +54,7 @@
             
             <?php
             if($c > 0){
+                var_dump($c);
                     $mucluc_content = $tc->MucLuc_List($c);
                         $row_ml_content = mysql_fetch_assoc($mucluc_content);
                     $sachlist2 = $tc->List_Sach($row_ml_content['idML']);
