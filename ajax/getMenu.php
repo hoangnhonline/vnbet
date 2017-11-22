@@ -11,6 +11,7 @@ $row_ml = mysql_fetch_assoc($mucluc);
 ?>					
 <div class='baosach'>	
     <?php
+    if(!empty($row_ml)){
     $sach = $s->List_Sach($row_ml['idML']);
     while ($row_s = mysql_fetch_assoc($sach)) {
         ?>
@@ -20,7 +21,7 @@ $row_ml = mysql_fetch_assoc($mucluc);
         <div class='baodanhmuc'>	
 
         </div>	
-        <?php }
+        <?php } }
     ?>
 
 </div>	

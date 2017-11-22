@@ -67,7 +67,7 @@ class mucluc extends db{
 	
 	function MucLuc_List($idML = -1){		
 		$sql = "SELECT * FROM mucluc WHERE idML = $idML or $idML = - 1 ORDER BY  idML DESC ";
-		$rs = mysql_query($sql) or die(mysql_error());
+		$rs = mysql_query($sql) or die(mysql_error());		
 		return $rs;
 	}
 }

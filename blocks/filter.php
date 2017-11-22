@@ -2,10 +2,10 @@
     <div class="col-md-2">Thư mục
         <select id="idDM_loc" name="idDM" style="width:70px">
             <option value="0">Chọn thư mục</option>
-            <option value="1">Kinh</option>
-            <option value="7">Luật</option>
-            <option value="3">Luận</option>
-            <option value="2">Sách</option>                
+            <option value="1">经</option>
+            <option value="2">律</option>
+            <option value="3">论</option>
+            <option value="4">其他</option>                
         </select>                     
     </div>
     <div class="col-md-3">

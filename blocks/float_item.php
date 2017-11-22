@@ -2,10 +2,10 @@
     <div class="float_content">            
         <div class="ui-widget" id="siteMenuBar">
             <div class="tab_control">
-                <a href="kinh.html"  class="tabmenu <?php if($c==1) echo "active"; ?>" idML="1">Kinh</a>
-                <a href="luat.html" idML="7" class="tabmenu <?php if($c==7) echo "active"; ?>">Luật</a>
-                <a href="luan.html" idML="3" class="tabmenu <?php if($c==3) echo "active"; ?>">Luận</a>
-                <a href="sach.html" idML="2" class="tabmenu <?php if($c==2) echo "active"; ?>">Sách</a>
+                <a href="kinh.html"  class="tabmenu <?php if($c==1) echo "active"; ?>" idML="1">经</a>
+                <a href="luat.html" idML="2" class="tabmenu <?php if($c==2) echo "active"; ?>">律</a>
+                <a href="luan.html" idML="3" class="tabmenu <?php if($c==3) echo "active"; ?>">论</a>
+                <a href="sach.html" idML="4" class="tabmenu <?php if($c==4) echo "active"; ?>">其他</a>
             </div>
             <div class="box_width_common">
                 <div class="content_tab" style="height: 593px;">
@@ -16,6 +16,7 @@
                         ?>
                         <div class="baosach">
                             <?php
+                            if(!empty($row_ml)){
                             $sachlist = $tc->List_Sach($row_ml['idML']);
                             while ($row_s = mysql_fetch_assoc($sachlist)) {
                             ?>
@@ -37,7 +38,7 @@
 
                             </div>
                             <?php } ?>
-                            <?php } ?>                           
+                            <?php } } ?>                           
                         </div><!-- baosach -->
                     </div><!-- menuContainer -->
                 </div><!-- content_tab -->

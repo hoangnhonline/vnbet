@@ -1,4 +1,5 @@
 <?php 
+ini_set('display_errors', 0);
 //include "head-cache.php";
 require_once('blocks/seo.php');
 /*

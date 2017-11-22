@@ -1,9 +1,9 @@
 <div id="siteMenuBar" class="ui-widget">
     <div class="tab_control">
-        <a href="javascript:;"  class="tabmenu active" idML="1">Kinh</a>
-        <a href="javascript:;" idML="7" class="tabmenu">Luật</a>
-        <a href="javascript:;" idML="3" class="tabmenu">Luận</a>
-        <a href="javascript:;" idML="2" class="tabmenu">Sách</a>
+        <a href="javascript:;"  class="tabmenu active" idML="1">经</a>
+        <a href="javascript:;" idML="2" class="tabmenu">律</a>
+        <a href="javascript:;" idML="3" class="tabmenu">论</a>
+        <a href="javascript:;" idML="4" class="tabmenu">其他</a>
     </div>
     <div class="box_width_common">
         <div class="content_tab">
