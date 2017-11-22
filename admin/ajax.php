@@ -62,7 +62,7 @@ if(!is_dir("../upload/biasach/"))
 mkdir("../upload/biasach/",0777,true);
 
 $url = "../upload/biasach/";
-
+$count = 0;
 for($i=0;$i<count($_FILES['images']['name']);$i++){
 	$extension = end(explode(".", $_FILES["images"]["name"][$i]));
 	if ((($_FILES["images"]["type"][$i] == "image/gif") || ($_FILES["images"]["type"][$i] == "image/jpeg") || ($_FILES["images"]["type"][$i] == "image/png")
