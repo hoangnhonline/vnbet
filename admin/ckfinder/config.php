@@ -84,7 +84,7 @@ ATTENTION: The trailing slash is required.
 */
 //$baseDir = "/home/admin/datviettour.com.vn/upload/";
 //$baseDir = "E:/Appserv/www/datviet/upload/";
-$baseDir = "/home/tungtt/public_html/tamtang/upload/";
+$baseDir = "/home/khmerbeta.org/public_html/upload/";
 
 /*
  * ### Advanced Settings
