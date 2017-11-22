@@ -3,11 +3,11 @@
 class db {
 
     private $host = "localhost";
-    private $user = "tungtt_tamtang";
-    private $pass = "ht24112011";
+    private $user = "root";
+    private $pass = "tuenhi1908";
     //private $user = "root";
     //private $pass = "root";
-    private $db = "tungtt_tamtang";
+    private $db = "khmerbeta_o_7a59";
 
     function __construct() {
         mysql_connect($this->host, $this->user, $this->pass) or die("Can't connect to server");
