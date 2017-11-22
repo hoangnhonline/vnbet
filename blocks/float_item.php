@@ -58,10 +58,10 @@
       <div class="block_search col-md-12" style="padding-left:30px">
             Thư mục 
             <select id="idML_Find" name="idML_Find">           
-                <option value="1">Kinh</option>
-                <option value="7">Luật</option>
-                <option value="3">Luận</option>
-                <option value="2">Sách</option>
+                <option value="1">经</option>
+                <option value="2">律</option>
+                <option value="3">论</option>
+                <option value="4">其他</option>
 
             </select>
             <input name="keyword" type="text" class="txt_input_search" id="textKeyword" value="<?php if($k!=null) echo $k; else {?>Nhập từ tìm kiếm<?php }?>" onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''">
