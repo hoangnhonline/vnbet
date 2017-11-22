@@ -53,6 +53,7 @@
                 <div class="col-sm-12">
             
             <?php
+            if($c > 0){
                     $mucluc_content = $tc->MucLuc_List($c);
                         $row_ml_content = mysql_fetch_assoc($mucluc_content);
                     $sachlist2 = $tc->List_Sach($row_ml_content['idML']);
@@ -73,7 +74,7 @@
                     </div>                    
                 
                     <?php                      
-                    }
+                    } }
                     ?>
                       </div>
             </div>  <?php }else if($s >0 && $t==null){
