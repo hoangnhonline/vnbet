@@ -54,9 +54,10 @@
             
             <?php
             if($c > 0){
-                var_dump($c);
+                
                     $mucluc_content = $tc->MucLuc_List($c);
                         $row_ml_content = mysql_fetch_assoc($mucluc_content);
+                        if(!empty($row_ml_content)){
                     $sachlist2 = $tc->List_Sach($row_ml_content['idML']);
                     while($row_sach_2 = mysql_fetch_assoc($sachlist2)){
                         ?>
@@ -75,7 +76,7 @@
                     </div>                    
                 
                     <?php                      
-                    } }
+                    } }}
                     ?>
                       </div>
             </div>  <?php }else if($s >0 && $t==null){
