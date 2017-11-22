@@ -97,7 +97,7 @@ if (isset($_POST['btnSubmit'])) {
             </div>
             <div class="clear"></div>
             <button style="margin-top: 10px;"class="button_colour" type="submit" id="btn_upload_images">
-                <a href="#">Upload</a>
+                Upload
             </button>
         </div>
 

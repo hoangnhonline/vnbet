@@ -159,7 +159,7 @@ $timduoc = mysql_num_rows($sach);
                                    class="duyet_mucluc" idSach="<?php echo $row['idSach'] ?>">
                                 <?php } else { ?>
                                     <img class="lazy" data-original="img/icons/enable.gif" alt="Đã duyệt" title="Đã duyệt" border="0" class="duyet_mucluc" status="0" idSach="<?php echo $row['idSach'] ?>">
-                                    <?
+                                    <?php
                                 }
                                 ?>
                             </td>
