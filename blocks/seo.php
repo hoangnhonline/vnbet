@@ -16,27 +16,27 @@ if($tmp_uri[0]=='')  {
 			switch ($tmp_uri[0]) {
 				case 'kinh':
 					$c = 1;
-					$title = 'Thư viện Kinh';
+					$title = '经';
 					break;
 
 				case 'luat':
-					$c = 7; 
-					$title = 'Thư viện luật'; 
+					$c = 2; 
+					$title = '律'; 
 					break;
 
 				case 'luan':
-					$title = 'Thư viện luận';
+					$title = '论';
 					$c = 3;
 					break;
 
 				case 'sach':
-					$title = 'Thư viện sách';
-					$c = 2;
+					$title = '其他';
+					$c = 4;
 					break;	
 
 				default:
 					$c = 1;
-					$title = 'Thư viện Kinh';
+					$title = '经';
 					break;
 			}                        
 		}else{		
