@@ -138,7 +138,7 @@ $sach = $dm->DanhMuc_List($idMLs, $idSachs, $limit, $offset);
                                    class="duyet_mucluc" idML="<?php echo $row['idDM'] ?>">
                                 <?php } else { ?>
                                     <img src="img/icons/enable.gif" alt="Đã duyệt" title="Đã duyệt" border="0" class="boduyet_mucluc" idML="<?php echo $row['idDM'] ?>">
-                                    <?
+                                    <?php
                                 }
                                 ?>
                             </td>
